@@ -1,7 +1,9 @@
-import random, json, bisect
+import random, json, bisect, pathlib
 
 # DEFINE JSON FILE
-filename = "questions.json"
+p = pathlib.Path("questions.json") # call the path class and define
+
+filename = p.absolute() # turns file into absolute path
 
 # OPEN JSON FILE
 with open(filename, "r") as f:
