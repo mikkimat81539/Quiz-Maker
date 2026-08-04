@@ -4,4 +4,4 @@
 - Pick questions randomly
 - Store questions in a data structure that user will be asked
 - grade the quiz based on answer
-- turn into an executable file for mac, linux and windows
+- turn into an executable file for mac
