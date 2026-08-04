@@ -54,7 +54,6 @@ try:
 
 		else:
 			print(f"Wrong, the answer was {random_questions[5]}\n")
-			# incorrect.append("WRONG")
 
 
 	num_correct = len(correct) # this is the number of incorrect answers
